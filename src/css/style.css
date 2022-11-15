@@ -1,0 +1,15 @@
+body { 
+    background-color: #E4CFB1;
+}
+h1,h2,h3 {color:#63120F;
+}
+
+.center {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

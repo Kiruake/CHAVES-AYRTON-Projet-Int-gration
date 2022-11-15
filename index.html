@@ -1,0 +1,54 @@
+<html lang="fr" class="html" x-data="{MenuIsOpen: false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Nindo</title>
+    <link rel="stylesheet" href="src/css/style.css"
+     rel="stylesheet" href="src/fonts/font.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>   
+</head>
+<body>
+    <header>
+        <button aria-controls="MenuPrincipal"  @click="MenuIsOpen= !MenuIsOpen">
+        Menu
+        </button>
+        <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>   
+    <h2 class="center">Mes 6 articles</h2> 
+    <HR style="color:#63120F"; ALIGN=CENTER WIDTH="300"> 
+             <ul> 
+                                <p>ARTICLES</p>
+                <div>
+                    <li><a href="Naruto.html">Accueil Naruto</a></li>
+                    <li><a href="Miki.html">Accueil Musique</a></li>
+                    <li><a href="VoyageDeChihiro.html">Accueil Film</a></li>
+                    <li><a href="Kyoto.html">Accueil Lieu</a></li>
+                    <li><a href="Mangakas.html">Accueil Regret</a></li>
+                    <li><a href="Stéréotypes.html">Accueil Espoir</a></li>
+                </div>
+                                <P>SECONDAIRES</P>
+                <div>
+                    <li><a href="Projets.html">Autres Projets</a></li>
+                    <li><a href="Glossaire.html">Glossaire</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="APropos.html">A Propos</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+            <div class="gallery" max-widht="100%" max-height="100%"> 
+                        <img src="public/img/MonNindo.svg"  alt="bannière Nindo">
+            </div>
+        <body>
+<p class="center"> Bienvenue ! Mon Nindo vous propose d<rsquo>'</rsquo>appronfondir votre culture japonaise à travers des thèmes qui me tiennent à coeur.</p> </center>
+         
+<div class="gallery">
+    <a href=VoyageDeChihiro.html> <img src="public/img/ChihiroMenu.svg"  height="137px" width="150px"> </a>
+    <a href=Kyoto.html><img src="public/img/KyotoMenu.svg"  height="137px" width="150px"> </a>
+    <a href=Mangakas.html><img src="public/img/MangakasMenu.svg"  height="137px" width="150px"> </a>
+    <a href=Miki.html><img src="public/img/MikiMenu.svg"  height="137px" width="150px"> </a>
+    <a href=Naruto.html><img src="public/img/NarutoMenu.svg"  height="137px" width="150px"> </a>
+    <a href=Stereotypes.html><img src="public/img/StereotypesMenu.svg"  height="137px" width="150px"> </a>
+        </div>
+</body>
+</html>

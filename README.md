@@ -1,6 +1,6 @@
-- NOM : 
-- PRÉNOM :
-- URL du site :
+- NOM : CHAVES
+- PRÉNOM : Ayrton
+- URL du site : 
 - URL FIGMA :
 
 # Structure de départ pour le projet individuel.

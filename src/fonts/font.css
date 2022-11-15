@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "HIROMISAKE","Nunito";
+	src: url("src/fonts/HIROMISAKE.ttf") format("truetype");
+	src: url("src/fonts/Nunito.ttf") format("truetype")
+
+}
+
+h2 {
+	
+	font-family: "HIROMISAKE";
+}
+
+p {
+	font-family: "Nunito";
+}
