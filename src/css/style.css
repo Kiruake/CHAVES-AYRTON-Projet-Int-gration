@@ -13,3 +13,8 @@ h1,h2,h3 {color:#63120F;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+h2 {
+    border-bottom: #63120F 2px 
+    
+}
