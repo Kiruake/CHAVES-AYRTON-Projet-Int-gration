@@ -9,12 +9,12 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-    <header>
+    <header >
     <button aria-controls="MenuPrincipal"  @click="MenuIsOpen= !MenuIsOpen">
-        Menu
+        <img src="public/img/Menu.svg">
         </button>
         <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>   
-             <ul> 
+             <ul class="center"> 
                                 <p>ARTICLES</p>
                 <div>
                     <li><a href="Naruto.html">Accueil Naruto</a></li>
@@ -34,10 +34,66 @@
             </ul>
         </nav>
     </header>
+
     <div class="gallery" max-widht="100%" max-height="100%"> 
         <img src="public/img/MonNindo.svg"  alt="bannière Nindo">
-</div>
-<h1>le phénomène Naruto</h1>
+    </div>
+
+<h1 class="center">le phénomène Naruto</h1>
+
+        <div class="gallery">
+            <img src="public/video/Naruto1.gif" class="gallery" height="150px" width="319px">
+        </div>
+<p> Naruto est un manga de type shonen dessiné par Masashi Kishimoto. Sa première apparition date de 1999 dans le Weekly Shonen Jump, magazine japonais dans lequel les nouveaux mangas prometteurs apparaissent, et s’est finis dans ce même magazine en 2014, pour un total de 72 tomes. Puis a été adapté en série animé en 2002 par le studio Pierrot.</p>
+<h2>Un succes total</h2>
+
+        <div class="gallery">
+            <img src="public/video/NarutoPain.gif" height="120px" width="187px">
+        </div>
+
+<p> 250 millions est le nombre d’exemplaires vendus dans le monde entier, autrement dit Naruto est un incontournable dans son genre, c’est le 3eme dans le classement des ventes mondial. Son énorme succès a même donné naissance à des films et des jeux vidéo qui ont tout aussi bien marché, La franchise Naruto est une réussite de A à Z.</p>
+<h2>Une aventure inoubliable</h2>
+
+        <div class="gallery">
+            <img src="public/video/SasukeItachi.gif" height="120px" width="187px">
+        </div>
+
+<p>Mais qu’est-ce qu’est Naruto ? Naruto est le nom éponyme du protagoniste à la coiffure blonde et aux yeux bleus, vêtu dans une combinaison orange que vous avez surement déjà du apercevoir une fois, peu importe votre âge. </p>
+<p>Naruto est orphelin et a eu une enfance terrible. Enfermé avec un “demon” à l’intérieur de lui, qui a dans le passé attaqué son village. Tout Konoha le déteste et le méprise, mais il a un rêve celui de devenir “Hokage” le chef ninja de son village et ainsi prouver à tout le monde sa juste valeur et gagner leur respect. Mais la route sera longue, accompagné de ses amis, il fera la rencontre de beaucoup d’antagonistes plus dangereux les uns des autres.    </p>
+<h2>Une philosophie de vie</h2>
+
+        <div class="gallery">
+            <img src="public/img/NarutoJiraya.jpg"  height="105px" width="229px">
+        </div>
+
+<p>A travers ses aventures Naruto nous fait passer de la tristesse à la joie, de la haine à l’amour et inversement. Un univers complet avec une touche d’humour, Naruto est une vraie leçon de vie dans son entièreté que ce soit par les histoires des personnages ou le déroulement du manga. </p>
+<h2>Mon tome favoris</h2>    
+        <img src="public/img/Tome42.jpg" height="203px" width="141px">
+       
+
+<h3 class="center">ATTENTION SPOIL</h3>
+<P class="center">Voici une liste de planches Naruto qui m’ont marqué</P>
     
+<div class="gallery" height="233px" weight="347px">
+        <img src="public/img/Planche1.jpg">
+        <img src="public/img/Planche2.jpg">
+        <img src="public/img/Planche3.jpg">
+        <img src="public/img/Planche4.jpg">
+    </div>
+
 </body>
+<footer>
+
+    <div class="Para">
+        <p>Projet réalisé dans le cadre d’un exercice
+         pédagogique au département MMi de Montbéliard</p>
+        <p> Ayrton chaves</p>
+    </div>
+
+<div class="gallery">
+<a href="https://www.instagram.com/ayrton.chvs/"> <img src="public/img/Insta.svg"> </a>
+<a href="https://twitter.com/ayrt_chvs"> <img src="public/img/Twitter.svg"> </a>
+</div>
+
+</footer>
 </html>

@@ -5,7 +5,7 @@
 }
 
 
-        h2 {
+        h2,h1 {
 	
 	        font-family: "HIROMISAKE";
             text-decoration : underline;
@@ -26,9 +26,11 @@ p {
 h1,h2,h3 {
      color: #63120F
 }
+nav {
+    color: #E4CFB1;
+}
 
-
-        footer {
+        footer,header {
             background-color: #63120F;
 
         }       
@@ -50,6 +52,10 @@ h1,h2,h3 {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.PhotoCenter {
     justify-content: center;
 }
 
