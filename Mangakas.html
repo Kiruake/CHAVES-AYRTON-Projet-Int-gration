@@ -1,0 +1,59 @@
+<html lang="fr" class="html" x-data="{MenuIsOpen: false}" style="--marge:1rem">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Nindo</title>
+    <link rel="stylesheet" href="src/css/style.css" rel="stylesheet" href="src/css/fonts/font.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<body style="margin: 0 1rem">
+    <header class="header" style="margin: 0 -1rem">
+
+        <div id="start">
+            <a href="index.html"><img src="public/img/Logo.svg" Style="margin-left:8px"> </a>
+        </div>
+
+        <div id="end" class="Menu">
+            <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
+                <img src="public/img/Menu.svg">
+            </button>
+
+            <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
+                <div class="MenuUl">
+                    <ul>
+                        <p class="Hiro"> ARTICLES</p>
+
+                        <li><a href="Naruto.html">Accueil Naruto</a></li>
+                        <li><a href="Miki.html">Accueil Musique</a></li>
+                        <li><a href="VoyageDeChihiro.html">Accueil Film</a></li>
+                        <li><a href="Kyoto.html">Accueil Lieu</a></li>
+                        <li><a href="Mangakas.html">Accueil Regret</a></li>
+                        <li><a href="Stéréotypes.html">Accueil Espoir</a></li>
+                </div>
+                <div class="center">
+                    <ul>
+                        <P class="Hiro">SECONDAIRES</P>
+                        <li><a href="Projets.html">Autres Projets</a></li>
+                        <li><a href="Glossaire.html">Glossaire</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="APropos.html">A Propos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="gallery" max-widht="100%" max-height="100%">
+        <img src="public/img/MonNindo.svg" class="MonNindo" alt="bannière Nindo">
+    </div>
+
+
+
+
+
+</body>

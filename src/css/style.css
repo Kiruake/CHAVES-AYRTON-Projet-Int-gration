@@ -46,7 +46,7 @@ header {
 
 
 
-.Para {
+.Footer {
     color: #E4CFB1;
     text-align: center;
 }
@@ -118,9 +118,9 @@ button {
     margin-top: 50px;
 }
 
-#Img1 {
-    border: solid #63120F;
+.Img {
 
+    border: solid #63120F;
 }
 
 h1 {
@@ -144,19 +144,13 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
-}
 
 .MenuUl {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 50px;
+    font-family: Nunito;
 }
 
 hr {
@@ -164,4 +158,17 @@ hr {
     transform: rotate(90deg);
     margin-left: 7px;
 
+}
+
+li {
+    display: block;
+    text-align: -webkit-match-parent;
+}
+
+.Menu2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Nunito;
+    
 }
