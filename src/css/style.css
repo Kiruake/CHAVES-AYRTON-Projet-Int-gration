@@ -3,11 +3,13 @@
 @import url(../css/header.css);
 
 
+h3,
 h2,
 h1 {
 
     font-family: "HIROMISAKE", serif;
     text-decoration: underline;
+    color:#63120F;
 
 }
 
@@ -20,14 +22,6 @@ p {
 body {
     background-color: #E4CFB1;
 }
-
-
-h1,
-h2,
-h3 {
-    color: #63120F
-}
-
 
 
 footer,
@@ -92,6 +86,10 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 50px;
+}
+
+h3 {
+    margin-top: 40px;
 }
 
 .Marge {
