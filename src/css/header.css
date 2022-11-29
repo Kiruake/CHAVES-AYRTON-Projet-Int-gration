@@ -1,0 +1,74 @@
+nav {
+    color: #E4CFB1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background: #63120F;
+    z-index: 1;
+
+}
+
+button {
+    position: relative;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.header {
+    position: center;
+}
+
+.header_logo {
+    display: block;
+}
+
+.Menu {
+    margin-left: 280px;
+    z-index: 2;
+}
+
+#start {
+    float: left;
+}
+
+a:-webkit-any-link {
+    color: #E4CFB1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.MenuUl {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    font-family: Nunito;
+}
+
+li {
+    display: block;
+    text-align: -webkit-match-parent;
+}
+
+.Menu2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Nunito;
+
+}
+
+.LogoMenu {
+    appearance: none;
+    border: none;
+    background: none;
+    padding: none;
+    cursor: pointer;
+}
