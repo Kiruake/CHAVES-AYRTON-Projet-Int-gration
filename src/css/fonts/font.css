@@ -19,7 +19,7 @@ h2 {
 	font-family: "HIROMISAKE";
 }
 
-.para {
+.para, form, input {
 	font-family: "Nunito";
 }
 

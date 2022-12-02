@@ -10,6 +10,8 @@ nav {
 
 }
 
+
+
 button {
     position: relative;
     appearance: none;
@@ -20,9 +22,10 @@ button {
     z-index: 2;
 }
 
+
 .header {
     position: center;
-    
+
 
 }
 

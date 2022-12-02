@@ -9,7 +9,7 @@ h1 {
 
     font-family: "HIROMISAKE", serif;
     text-decoration: underline;
-    color:#63120F;
+    color: #63120F;
 
 }
 
@@ -127,4 +127,77 @@ hr {
     BOTTOM: calc(50% - 20px);
     z-index: -1;
 
+}
+
+.postBox {
+    padding: 10px 20px;
+    position: relative;
+}
+
+form {
+    border: solid;
+    border-radius: 30px;
+    height: 300px;
+}
+
+.Form2 {
+    border: solid;
+    margin-bottom: 20px;
+    width: 180px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+.Form3 {
+    border: solid;
+    margin-bottom: 20px;
+    width: 180px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+input {
+    background-color: #E4CFB1;
+    border: none;
+    margin-left: 15px;
+}
+
+label {
+    margin-left: 3px;
+    border-right: solid;
+    padding-right: 2px;
+
+}
+
+
+.Btn2 {
+    cursor: pointer;
+    z-index: 0;
+    border: solid;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 140px;
+
+}
+
+input {
+    box-sizing: border-box;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 30px;
+    border-color: #E4CFB1;
+    outline: none
+
+}
+
+.glossaire {
+    border: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left:5px
+}
+
+input:focus-visible {
+    outline-offset: 0px;
 }
