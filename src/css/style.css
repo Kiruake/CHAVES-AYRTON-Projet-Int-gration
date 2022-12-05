@@ -152,14 +152,15 @@ form {
     border: solid;
     margin-bottom: 20px;
     width: 180px;
-    margin-left: 15px;
+    margin-left: 7px;
     border-radius: 30px;
 }
 
 input {
     background-color: #E4CFB1;
     border: none;
-    margin-left: 15px;
+    margin-left: 2px;
+    outline: none;
 }
 
 label {
@@ -186,7 +187,7 @@ input {
     box-shadow: none;
     border-radius: 30px;
     border-color: #E4CFB1;
-    outline: none
+    
 
 }
 
@@ -200,4 +201,19 @@ input {
 
 input:focus-visible {
     outline-offset: 0px;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
