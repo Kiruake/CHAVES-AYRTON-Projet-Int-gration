@@ -54,7 +54,6 @@ a:-webkit-any-link {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 50px;
     font-family: Nunito;
 }
 
@@ -68,6 +67,7 @@ li {
     justify-content: space-between;
     flex-wrap: wrap;
     font-family: Nunito;
+    padding-left: 25px;
 
 }
 
