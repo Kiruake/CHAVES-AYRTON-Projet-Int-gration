@@ -196,7 +196,10 @@ input {
     border-radius: 5px;
     margin-bottom: 30px;
     margin-top: 30px;
-    padding-left: 5px
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: #63120F;
 }
 
 input:focus-visible {
@@ -218,8 +221,23 @@ input:focus-visible {
     position: absolute;
 }
 
-.gallery2 > a {
+
+
+.Liste {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.Liste li {
+
+    margin-top: 20px;
+
+}
+
+.gallery2 > a {
+    padding-top :15px;
 }
