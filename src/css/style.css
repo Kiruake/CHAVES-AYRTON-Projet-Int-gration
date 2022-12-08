@@ -63,8 +63,13 @@ header {
 
 
 .Spoil {
-    border: 1px solid #63120F;
+    border: 3px solid #63120F;
     text-align: center;
+    width: 175px;
+    height: 25px;
+    margin-left: 85px;
+    padding-top: 5px;
+    text-decoration: none;
 }
 
 .Planche {
@@ -75,7 +80,7 @@ header {
 
 
 .MonNindo {
-    margin-top: 50px;
+    margin-top: 85px;
 }
 
 .Img {
@@ -238,6 +243,6 @@ input:focus-visible {
 
 }
 
-.gallery2 > a {
-    padding-top :15px;
+.gallery2>a {
+    padding-top: 15px;
 }
