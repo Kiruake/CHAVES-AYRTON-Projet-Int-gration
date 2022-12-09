@@ -1,0 +1,167 @@
+<html lang="fr" class="html" x-data="{MenuIsOpen: false}" style="--marge:1rem">
+
+</html>>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Nindo</title>
+    <link rel="stylesheet" href="../src/css/style.css" rel="stylesheet" href="../src/css/fonts/font.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<body style="margin: 0 1rem">
+    <header class="header">
+
+        <div id="start">
+
+        <a href="../Miki.html"><img src="../public/img/Trad.svg" Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"></a>
+            <a href="indexENG.html"><img src="../public/img/Logo.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
+        </div>
+
+        <div id="end" class="Menu">
+
+            <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
+                <img src="../public/img/Menu.svg">
+            </button>
+
+            <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
+                <div class="MenuUl">
+                    <ul>
+                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+
+                        <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
+                                href="NarutoENG.html">Naruto</a> </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MikiENG.html">Miki Matsubara</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiroENG.html">Voyage de
+                                Chihiro</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="KyotoENG.html">Kyoto</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MangakasENG.html">Conditions de vie des
+                                Mangakas</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="StéréotypesENG.html">Stéréotypes
+                                japonais</a></li>
+
+                </div>
+
+                <div class="MenuUl">
+                    <ul class="Menu2">
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
+                                src="../public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
+                                href="ProjetsENG.html" style="padding-left:5px">Autres
+                                Projets</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
+                                src="../public/img/LogoGlossaire.svg" style="float: left;"><a href="GlossaireENG.html"
+                                style="padding-left:5px">Glossaire</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;"><img src="../public/img/LogoMail.svg"
+                                style="float: left;"><a href="ContactENG.html" style="padding-left:5px">Contact</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
+                                src="../public/img/LogoAPropos.svg" style="float: left;"><a href="AProposENG.html"
+                                style="padding-left:5px">A Propos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <div class="gallery2" max-widht="100%" max-height="100%">
+        <img src="../public/img/MonNindo.svg" class="MonNindo" alt="bannière Nindo">
+    </div>
+
+    <h1 class="center">Miki Matsubara</h1>
+
+    <div class="gallery">
+        <img src="public/video/Miki1.gif" class="Img" height="150px" width="319px">
+    </div>
+
+    <h2><img src="public/img/NUNU.jpg" style="float: left;">Une star naissante</h2>
+
+
+    <p class="Marge">Miki Matsuabra est une célèbre chanteuse de pop japonaise, née en 1959 à Osaka. Sa mère est une
+        chanteuse de jazz dans
+        un groupe de musique, ce qui a créée chez Miki une passion dès son plus jeune âge pour la musique et plus
+        spécialement
+        pour le chant.</p>
+
+    <div class="gallery">
+        <img src="public/img/Miki3.jpg" class="Img" height="120px" width="187px">
+    </div>
+
+    <p class="Marge">C’est à l‘âge de 20 ans que sa carrière commençe et cela avec le morceau “Stay with me” qui est de
+        nos jours vu comme
+        l’un des ou pour certains le meilleur son de pop japonaise. Gagnant vite en popularité grâce à sa voix et son
+        talent
+        pour la musique elle deviens une artiste populaire dans les années 80/90s au Japon.</p>
+
+    <p class="Marge">Durant sa carrière solo elle aura sorti 11 albums puis former plus tard son groupe “Dr Woo” avec
+        d’autres membres. Miki
+        est vu comme une femme impliquée dans sa passion, et impose le respect pour tout le travail qu’elle fournit.</p>
+
+    <h2> <img src="public/img/NUNU.jpg" style="float: left;">Amour et tristesse</h2>
+
+    <h3>Stay with me</h3>
+
+    <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/moR4uw-NWLY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <p class="Marge">Stay with me est un titre parlant d’un amour fini que Miki chante d’une manière nostalgique,
+        pensant aux moments
+        passés et la solitude créée par l’abandon de sa moitié. Elle se sent seule et désemparé suite à la fin de la
+        relation,suppliant son amour de rester avec elle. Elle n’arrive pas à l’oublier et chanter cette mélodie ne fait
+        qu'augmenter son
+        sentiment de tristesse.</p>
+
+    <p class="Marge">Qu’elle soit vraie ou fictive cette musique est touchante dans ses paroles et sa mélodie très pop,
+        emmenant dans
+        univers
+        particulier traversant les temps.</p>
+
+    <h2> <img src="public/img/NUNU.jpg" style="float: left;">Une triste fin</h2>
+
+    <div class="gallery">
+        <img src="public/img/Miki4.jpg" class="Img" height="105px" width="229px">
+    </div>
+
+    <p class="Marge">Diagnostiqué à 40ans d’un cancer du col de l’utérus, Miki le cache à sa famille et amis pour
+        continuer à faire de la
+        musique mais malheureusement son cancer progresse au stade final sans qu’il ne puisse il y avoir de point
+        retour.</p>
+
+    <p class="Marge">Elle décide donc d’arrêter la musique pour profiter de son temps restant avec sa famille et son
+        mari. 1 an avant son
+        décès elle déclara tristement regretter sa carrière dans la musique et qu’elle aurait souhaité que personne
+        n’écoute sa
+        musique, reprochant de ne pas avoir pu profiter de sa vie à cause du temps qu’elle a dû passer à se concentrer
+        sur sa
+        carrière de chanteuse.</p>
+
+    <h2> <img src="public/img/NUNU.jpg" style="float: left;">Un succès post-mortem</h2>
+
+    <p class="Marge">Elle décéda à 44 ans, n’ayant même pas voir le succès de sa chanson Stay with me dans le reste du
+        monde presque 40 ans
+        après sa sortie, notamment grâce au réseau social Tik tok.</p>
+
+</body>
+
+<footer style="margin: 0 -1rem">
+
+    <div class="footer">
+        <p style="padding-top:10px ;">Projet réalisé dans le cadre d’un exercice
+            pédagogique au département <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
+                de Montbéliard</a> </br></p>
+        <p> Ayrton chaves</p>
+    </div>
+
+    <div class="gallery2" style="padding-bottom: 15px;">
+        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="public/img/Insta.svg"> </a>
+        <a href="https://twitter.com/ayrt_chvs"> <img src="public/img/Twitter.svg"> </a>
+    </div>
+
+</footer>

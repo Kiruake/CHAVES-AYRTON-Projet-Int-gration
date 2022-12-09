@@ -1,0 +1,121 @@
+<html lang="fr" class="html" x-data="{MenuIsOpen: false}" style="--marge:1rem">
+
+</html>>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Nindo</title>
+    <link rel="stylesheet" href="../src/css/style.css" rel="stylesheet" href="../src/css/fonts/font.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<body style="margin: 0 1rem">
+    <header class="header">
+
+        <div id="start">
+
+        <a href="../Projets.html"><img src="../public/img/Trad.svg" Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"></a>
+            <a href="indexENG.html"><img src="../public/img/Logo.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
+        </div>
+
+        <div id="end" class="Menu">
+
+            <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
+                <img src="../public/img/Menu.svg">
+            </button>
+
+            <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
+                <div class="MenuUl">
+                    <ul>
+                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+
+                        <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
+                                href="NarutoENG.html">Naruto</a> </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MikiENG.html">Miki Matsubara</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiroENG.html">Voyage de
+                                Chihiro</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="KyotoENG.html">Kyoto</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MangakasENG.html">Conditions de vie des
+                                Mangakas</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="StéréotypesENG.html">Stéréotypes
+                                japonais</a></li>
+
+                </div>
+
+                <div class="MenuUl">
+                    <ul class="Menu2">
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
+                                src="../public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
+                                href="ProjetsENG.html" style="padding-left:5px">Autres
+                                Projets</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
+                                src="../public/img/LogoGlossaire.svg" style="float: left;"><a href="GlossaireENG.html"
+                                style="padding-left:5px">Glossaire</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;"><img src="../public/img/LogoMail.svg"
+                                style="float: left;"><a href="ContactENG.html" style="padding-left:5px">Contact</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
+                                src="../public/img/LogoAPropos.svg" style="float: left;"><a href="AProposENG.html"
+                                style="padding-left:5px">A Propos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <div class="gallery2" max-widht="100%" max-height="100%">
+        <img src="../public/img/MonNindo.svg" class="MonNindo" alt="bannière Nindo">
+    </div>
+
+    <h1 class="center">Autres Projets</h1>
+
+    <p class="Marge">Voici d’autres projets fait par mes camarades de promo sur differents themes tout aussi
+        intéressant.</p>
+    <div class="Liste">
+        <ul class="Para">
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Tengu Road<a></li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Back to Back</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Timeproof Cybersoul</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Mind_uploading.exe</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Discover-e</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Jibun</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Reminder</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Dicta</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Sweet Old Times</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">As Times flies</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Rack over the ashes</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Reverse Footage</li>
+            <li><a href="Tengu-Road.fr" style="color: #63120F">Wikipiece</li>
+        </ul>
+    </div>
+
+    <div class="gallery2" style="margin-top:60px;">
+        <img src="public/img/NuageFooter.svg">
+        <img src="public/img/NuageFooter.svg">
+        <img src="public/img/NuageFooter.svg">
+        <img src="public/img/NuageFooter.svg">
+    </div>
+
+</body>
+
+<footer style="margin: 0 -1rem">
+
+    <div class="footer">
+        <p style="padding-top:10px ;">Projet réalisé dans le cadre d’un exercice
+            pédagogique au département <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
+                de Montbéliard</a> </br></p>
+        <p> Ayrton chaves</p>
+    </div>
+
+    <div class="gallery2" style="padding-bottom: 15px;">
+        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="public/img/Insta.svg"> </a>
+        <a href="https://twitter.com/ayrt_chvs"> <img src="public/img/Twitter.svg"> </a>
+    </div>
+
+</footer>
+
+</html>
