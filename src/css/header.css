@@ -17,7 +17,6 @@ button {
     appearance: none;
     border: none;
     background: none;
-    padding: none;
     cursor: pointer;
     z-index: 2;
     margin-left: 20px;
@@ -41,8 +40,9 @@ button {
 }
 
 .Menu {
-    margin-left: 280px;
-    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+     z-index: 2;
 }
 
 #start {
