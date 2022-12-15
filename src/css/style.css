@@ -250,3 +250,12 @@ input:focus-visible {
 .gallery2>a {
     padding-top: 15px;
 }
+
+.galleryFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 30px;
+
+}
