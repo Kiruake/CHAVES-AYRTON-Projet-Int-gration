@@ -259,3 +259,19 @@ input:focus-visible {
     margin-top: 30px;
 
 }
+
+.galleryNuage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+    width:"66px";
+    height:"35px"
+
+}
+
+.galleryNuage>img {
+    width: "66px";
+    height: "35px"
+}
