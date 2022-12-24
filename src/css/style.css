@@ -144,7 +144,7 @@ hr {
 
 
 
-.Naruto {
+.Susano {
     margin-top: 70px;
     position: relative;
     content: "";
@@ -153,23 +153,48 @@ hr {
     z-index: -1;
 }
 
+.Naruto {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #F2A30B;
+    z-index: -1;
+}
+
+.Naruto2 {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #FFE182;
+    z-index: -1;
+}
+
 .PNG {
     margin-top: 70px;
     position: absolute;
     right: 0;
 
-    
-    
 }
 
 .TexteNaruto {
+    color: #014372;
+    margin-right: 18px;
+}
+
+.TexteNaruto2 {
+    color: #014372;
+    margin-top: 50px;
+}
+
+.TexteSusano {
     margin-right: 150px;
-   
+
 }
 
 p {
     font-family: "Nunito";
     margin-left: 18px;
+    margin-right: 18px;
     color: white;
 }
 
