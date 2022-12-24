@@ -168,6 +168,13 @@ h3 {
     z-index: -1;
 }
 
+.Susuwatari {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #EB8F65;
+    z-index: -1;
+}
 
 .SansVisagePNG {
     position: absolute;
