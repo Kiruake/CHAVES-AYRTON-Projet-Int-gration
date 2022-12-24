@@ -20,7 +20,7 @@ h3 {
 
 
 body {
-    
+
     margin: 0;
 }
 
@@ -163,7 +163,23 @@ hr {
     z-index: -1;
 }
 
-.PNG {
+.Ghibli {
+    margin-top: 70px;
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #EEE1D2;
+    z-index: -1;
+}
+
+.GhibliPNG {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.PNGSusano {
     margin-top: 70px;
     position: absolute;
     right: 0;
