@@ -176,6 +176,36 @@ h3 {
     z-index: -1;
 }
 
+.Temple {
+    margin-top: 70px;
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #6FA8BF;
+    z-index: -1;
+}
+
+.MiniTemple {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #F2D9BA;
+    z-index: -1;
+}
+
+.MiniTemplePNG {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+}
+
+.TemplePNG {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .SansVisagePNG {
     position: absolute;
     bottom: 0;
