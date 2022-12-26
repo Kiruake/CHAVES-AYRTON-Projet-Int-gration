@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "HIROMISAKE";
-	src: url("Hiromisake.ttf") format("truetype");
+	font-family: "BigSamurai";
+	src: url("BigSamurai.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -16,10 +16,15 @@
 
 }
 
-h2 {
 
-	font-family: "HIROMISAKE";
+h3,
+h2,
+h1 {
+
+	font-family: "BigSamurai", serif;
+
 }
+
 
 .para, form, input {
 	font-family: "Nunito";
