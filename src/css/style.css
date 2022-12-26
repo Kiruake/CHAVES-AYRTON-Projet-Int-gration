@@ -101,7 +101,7 @@ h3 {
 
 
 
-
+/* Page Naruto */
 
 
 .Susano {
@@ -116,7 +116,7 @@ h3 {
 .Naruto {
     position: relative;
     content: "";
-    height: 799px;
+    height: 860px;
     background-color: #F2A30B;
     z-index: -1;
 }
@@ -128,6 +128,33 @@ h3 {
     background-color: #FFE182;
     z-index: -1;
 }
+
+.PNGSusano {
+    margin-top: 70px;
+    position: absolute;
+    right: 0;
+
+}
+
+.TexteNaruto {
+    color: #055893;
+    margin-right: 18px;
+    margin-top: 0;
+}
+
+.TexteNaruto2 {
+    color: #055893;
+    margin-top: 50px;
+}
+
+.TexteSusano {
+    margin-right: 150px;
+
+}
+
+
+/* Page Voyage de Chihiro */
+
 
 .Ghibli {
     margin-top: 70px;
@@ -162,6 +189,22 @@ h3 {
     background-color: #EB8F65;
     z-index: -1;
 }
+
+.SansVisagePNG {
+    position: absolute;
+    bottom: 0;
+    left: 95;
+    z-index: -1;
+}
+
+.GhibliPNG {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Page Kyoto*/
+
 
 .Temple {
     margin-top: 70px;
@@ -221,41 +264,43 @@ h3 {
     left: 65
 }
 
-.SansVisagePNG {
-    position: absolute;
-    bottom: 0;
-    left: 95;
+
+/* Page Mangakas*/
+
+.Saitama {
+    margin-top: 70px;
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #99A0CB;
     z-index: -1;
 }
 
-.GhibliPNG {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+.Lunette {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #748CCC;
+    z-index: -1;
+}
+
+.Capuche {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #5667B7;
+    z-index: -1;
+}
+
+.Citation {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #354DAD;
+    z-index: -1;
 }
 
 
-.PNGSusano {
-    margin-top: 70px;
-    position: absolute;
-    right: 0;
-
-}
-
-.TexteNaruto {
-    color: #014372;
-    margin-right: 18px;
-}
-
-.TexteNaruto2 {
-    color: #014372;
-    margin-top: 50px;
-}
-
-.TexteSusano {
-    margin-right: 150px;
-
-}
 
 p {
     font-family: "Nunito";
