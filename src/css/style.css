@@ -300,7 +300,30 @@ h3 {
     z-index: -1;
 }
 
+.SaitamaPNG {
+    position: absolute;
+    bottom: 0;
+}
 
+.LunettePNG {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.CapuchePNG {
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+}
+
+.AngePNG {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
 
 p {
     font-family: "Nunito";
