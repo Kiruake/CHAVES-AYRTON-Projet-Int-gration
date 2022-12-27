@@ -130,9 +130,10 @@ h3 {
 }
 
 .PNGSusano {
-    margin-top: 70px;
     position: absolute;
     right: 0;
+    top: 0;
+    z-index: -1;
 
 }
 
@@ -147,10 +148,7 @@ h3 {
     margin-top: 50px;
 }
 
-.TexteSusano {
-    margin-right: 150px;
 
-}
 
 
 /* Page Voyage de Chihiro */
