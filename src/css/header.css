@@ -50,7 +50,7 @@ button {
 }
 
 a:-webkit-any-link {
-    color: #E4CFB1;
+    color: black;
     cursor: pointer;
     text-decoration: none;
 }
