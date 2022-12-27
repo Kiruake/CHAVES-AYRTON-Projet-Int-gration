@@ -23,8 +23,21 @@ body {
 
 }
 
+.gallery2::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color:black;
+    left: 31;
+    right: 31;
+    z-index: -1;
+
+}
 
 
+.gallery2>a {
+    padding-top: 30px;
+}
 
 
 .gallery {
@@ -75,32 +88,6 @@ h3 {
 
 
 
-.gallery::before {
-    content: "";
-    position: absolute;
-    height: 3px;
-    background-color: #63120F;
-    left: -0.9rem;
-    right: -0.9rem;
-    top: calc(50% - 20px);
-    z-index: -1;
-
-}
-
-.gallery::after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    background-color: #63120F;
-    left: -0.9rem;
-    right: -0.9rem;
-    BOTTOM: calc(50% - 20px);
-    z-index: -1;
-
-}
-
-
-
 /* Page Naruto */
 
 
@@ -148,7 +135,7 @@ h3 {
     margin-top: 50px;
 }
 
-    
+
 
 
 /* Page Voyage de Chihiro */
@@ -497,7 +484,7 @@ input:focus-visible {
 }
 
 .gallery2>a {
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .galleryFooter {
@@ -509,18 +496,4 @@ input:focus-visible {
 
 }
 
-.galleryNuage {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    margin-top: 60px;
-    width: "66px";
-    height: "35px"
 
-}
-
-.galleryNuage>img {
-    width: "66px";
-    height: "35px"
-}
