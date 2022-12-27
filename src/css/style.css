@@ -315,7 +315,7 @@ h3 {
 .CapuchePNG {
     position: absolute;
     left: 0;
-    bottom: 0;  
+    bottom: 0;
 }
 
 .AngePNG {
@@ -334,6 +334,60 @@ p {
 
 
 
+/* Page Stéréotypes Japon*/
+
+.LuneRouge {
+    margin-top: 70px;
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #8B0000;
+    z-index: -1;
+}
+
+.FemmeGeisha {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #2E2E2E;
+    z-index: -1;
+}
+
+.FemmeGeisha2 {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #FAFAD2;
+    z-index: -1;
+}
+
+.Chat {
+    position: relative;
+    content: "";
+    height: 799px;
+    background-color: #CDB79E;
+    z-index: -1;
+}
+
+
+.FemmeGeishaPNG {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.FemmeGeisha2PNG {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.ChatPNG {
+    position: absolute;
+    bottom: 0;
+    left: 17;
+}
 
 
 
