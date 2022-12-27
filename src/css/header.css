@@ -30,7 +30,7 @@ button {
     position: fixed;
     z-index: 1;
     width: 100%;
-    border-bottom: solid 2px;
+    background-color: white;
 
 
 }
