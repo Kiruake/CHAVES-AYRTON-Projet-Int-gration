@@ -8,7 +8,7 @@
 
 
 body {
-
+background-color: #F4EAD5;
     margin: 0;
 }
 
@@ -378,48 +378,48 @@ p {
 
 
 
-.FondNoirCadre {
+.FondBleuCadre {
     margin-top: 25px;
     margin-left: 13px;
     margin-right: 13px;
     position: relative;
     content: "";
     height: 770px;
-    background-color: #000000;
+    background-color: #233963;
     border-radius: 20px;
 }
 
 
-.FondBlancCadre {
+.FondBeigeCadre {
     margin-top: 25px;
     margin-left: 13px;
     margin-right: 13px;
     position: relative;
     content: "";
     height: 770px;
-    background-color: #FFFFFF;
+    background-color: #F4EAD5;
     border-radius: 20px;
 }
 
 
-.FondNoir {
+.FondBleu {
     margin-top: 25px;
     padding-top: 2;
     position: relative;
     content: "";
     height: 820px;
-    background-color: #000000;
+    background-color: #233963;
     z-index: -1;
 
 }
 
-.FondBlanc {
+.FondBeige {
     
     padding-top: 2;
     position: relative;
     content: "";
     height: 820px;
-    background-color: #FFFFFF;
+    background-color: #F4EAD5;
     z-index: -1;
 }
 
