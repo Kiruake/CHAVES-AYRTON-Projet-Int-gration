@@ -40,14 +40,6 @@ background-color: #F4EAD5;
 }
 
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    margin-top: 30px;
-
-}
 
 
 .Spoil {
@@ -89,17 +81,6 @@ h3 {
 
 
 
-
-.TexteNaruto {
-    color: #055893;
-    margin-right: 18px;
-    margin-top: 0;
-}
-
-.TexteNaruto2 {
-    color: #055893;
-    margin-top: 50px;
-}
 
 
 
