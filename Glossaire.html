@@ -10,79 +10,98 @@
 </head>
 
 <body style="margin: 0 1rem">
-<header class="header">
+    <header class="header">
 
-    <div id="start">
+        <div id="start">
 
-        <a href="ENG/GlossaireENG.html"><img src="public/img/Trad.svg" Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"> </a>
-        <a href="index.html"><img src="public/img/Logo.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
-    </div>
+            <a href="ENG/GlossaireENG.html"><img src="public/img/Trad.svg"
+                    Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"> </a>
+            <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
+        </div>
 
-    <div id="end" class="Menu">
+        <div id="end" class="Menu">
 
-        <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
-            <img src="public/img/Menu.svg">
-        </button>
+            <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
+                <img src="public/img/Menu.svg">
+            </button>
 
-        <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
-            <div class="MenuUl">
-                <ul>
-                    <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+            <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
+                <div class="MenuUl">
+                    <ul>
+                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
 
-                    <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a href="Naruto.html">Naruto</a>
-                    </li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Miki.html">Miki Matsubara</a></li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiro.html">Voyage de
-                            Chihiro</a>
-                    </li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Kyoto.html">Kyoto</a></li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Mangakas.html">Conditions de vie des
-                            Mangakas</a></li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Stéréotypes.html">Stéréotypes
-                            japonais</a></li>
+                        <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
+                                href="Naruto.html">Naruto</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Miki.html">Miki Matsubara</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiro.html">Voyage de
+                                Chihiro</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Kyoto.html">Kyoto</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Mangakas.html">Conditions de vie des
+                                Mangakas</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Stéréotypes.html">Stéréotypes
+                                japonais</a></li>
 
-            </div>
+                </div>
 
-            <div class="MenuUl">
-                <ul class="Menu2">
-                    <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
-                    <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
-                            src="public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a href="Projets.html"
-                            style="padding-left:5px">Autres
-                            Projets</a></li>
-                    <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
-                            src="public/img/LogoGlossaire.svg" style="float: left;"><a href="Glossaire.html"
-                            style="padding-left:5px">Glossaire</a></li>
-                    <li style="font-size: 20px; margin-bottom:50px;"><img src="public/img/LogoMail.svg"
-                            style="float: left;"><a href="Contact.html" style="padding-left:5px">Contact</a></li>
-                    <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
-                            src="public/img/LogoAPropos.svg" style="float: left;"><a href="APropos.html"
-                            style="padding-left:5px">A Propos</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+                <div class="MenuUl">
+                    <ul class="Menu2">
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
+                                src="public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
+                                href="Projets.html" style="padding-left:5px">Autres
+                                Projets</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
+                                src="public/img/LogoGlossaire.svg" style="float: left;"><a href="Glossaire.html"
+                                style="padding-left:5px">Glossaire</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;"><img src="public/img/LogoMail.svg"
+                                style="float: left;"><a href="Contact.html" style="padding-left:5px">Contact</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
+                                src="public/img/LogoAPropos.svg" style="float: left;"><a href="APropos.html"
+                                style="padding-left:5px">A Propos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-</header>
+    </header>
 
 
     <h1 class="center">Glossaire</h1>
 
-    <p class="glossaire">Konoha : Village dans lequel Naruto vit</p>
-    <p class="glossaire">Hokage: Nom donné au chef du village dans Naruto</p>
-    <p class="glossaire">UNESCO: Organisation des Nations Unis pour l'éducation, la Science et la Culture</p>
-    <p class="glossaire">Restauration Meiji : C’est une révolution politique de 1868 qui a conduit à la disparition définitive du shogunat
-    Tokugawa (gouvernement militaire) au Japon</p>
-    <p class="glossaire">L’ère d’Edo : L’époque d’Edo correspond au règne du shogunat Tokugawa (1603-1867), qui choisit Edo (aujourd’hui Tokyo)
-    comme capitale, l’ancienne capitale impériale étant Kyoto</p>
-
-    <div class="gallery2" style="margin-top:60px;">
-        <img src="public/img/NuageFooter.svg">
-        <img src="public/img/NuageFooter.svg">
-        <img src="public/img/NuageFooter.svg">
-        <img src="public/img/NuageFooter.svg">
+    <div class="glossaire">
+        <p style="margin-top:4px; margin-left:4px; color: black;">1 : Konoha</p>
+        <p style="color: black;">Village dans lequel Naruto vit</p>
     </div>
-        
+
+    <div class="glossaire">
+        <p>2 : Hokage</p>
+        <p>Nom donné au chef du village dans Naruto</p>
+    </div>
+
+    <div class="glossaire">
+        <p>3 : UNESCO</p>
+        <p>Organisation des Nations Unis pour l'éducation, la Science et la Culture</p>
+    </div>
+
+    <div class="glossaire">
+        <p>4 : Restauration Meiji</p>
+        <p>C’est une révolution politique de 1868 qui a conduit à la disparition
+            définitive du shogunat
+            Tokugawa (gouvernement militaire) au Japon</p>
+    </div>
+
+    <div class="glossaire">
+        <p>5 : L'ère d'Edo</p>
+        <p>L’époque d’Edo correspond au règne du shogunat Tokugawa (1603-1867), qui
+            choisit
+            Edo (aujourd’hui Tokyo)
+            comme capitale, l’ancienne capitale impériale étant Kyoto</p>
+    </div>
+
+
+
 </body>
 
 <footer style="margin: 0 -1rem">
