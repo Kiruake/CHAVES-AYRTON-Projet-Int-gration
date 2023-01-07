@@ -16,6 +16,15 @@
 
 }
 
+@font-face {
+	font-family: "OldJapanese";
+	src: url("OldJapanese.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+
+}
+
 h3,
 h2,
 h1 {
