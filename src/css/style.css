@@ -264,15 +264,28 @@ input:focus-visible {
 }
 
 .Gallery3 {
-    margin-left: 55;
+    margin-left: 13;
     margin-right: 30;
     display: flex;
     position: relative;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
 
+.Projet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AvatarProjetTexte {
+    font-family: 'BigSamurai'; 
+    padding-left: 15px
+
+}
+
+
 .Gallery3>a {
-    padding-top: 50px;
+    padding-top: 20px;
 }
