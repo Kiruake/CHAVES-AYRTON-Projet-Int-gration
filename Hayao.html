@@ -9,25 +9,31 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-<body style="margin: 0 1rem">
-    <header class="header">
+<body>
+    <header class="headerBleu">
 
         <div id="start">
-            <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:8px"> </a>
+
+            <a href="ENG/indexENG.html"><img src="public/img/Trad.svg"
+                    Style="margin-left:10px; width: 58; height: 58;padding-top: 3px;" alt="Bouton Traduction"> </a>
+            <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3; width: 58px;
+    height: 58px" alt="Bouton accueil"> </a>
         </div>
 
         <div id="end" class="Menu">
+
             <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
-                <img src="public/img/Menu.svg">
+                <img src="public/img/MenuBeige.svg" style="width: 58px; height: 58px" alt="Bouton">
             </button>
 
             <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
                 <div class="MenuUl">
                     <ul>
-                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+                        <p class="Hiro" style="margin-left: 90px; font-family: 'OldJapanese';"> ARTICLES</p>
 
                         <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
-                                href="Naruto.html">Naruto</a> </li>
+                                href="Naruto.html">Naruto</a>
+                        </li>
                         <li style="font-size: 24px;margin-bottom:15px;"><a href="Miki.html">Miki Matsubara</a></li>
                         <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiro.html">Voyage de
                                 Chihiro</a>
@@ -42,7 +48,8 @@
 
                 <div class="MenuUl">
                     <ul class="Menu2">
-                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30;font-family: 'OldJapanese';    ">
+                            SECONDAIRES</P>
                         <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
                                 src="public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
                                 href="Projets.html" style="padding-left:5px">Autres
@@ -62,135 +69,60 @@
 
     </header>
 
-    <h1 class="center" style="margin-bottom:50px ;"> Le Legende Hayao Miyazaki</h1>
+    <h1 class="center" style="margin-bottom:50px ;"> LA LEGENDE HAYAO MIYAZAKI</h1>
 
-    <div class="gallery">
-        <img src="public/img/Hayo1.jpg" class="Img" height="236px" width="250px">
-    </div>
+    <img src="public/img/Hayo1.jpg" class="ImageCentre" height="236px" width="250px">
 
-    <p class="Marge">Hayao MIYAZAKI, c’est 53 ans de carrière
+
+    <p style="color:black; margin-top: 50;">Hayao MIYAZAKI, c’est 53 ans de carrière
         37 films et séries pour 3 prix. Voici 7 autres oeuvres du légendaire réalisateur japonais.
     </p>
 
     <a href="https://fr.wikipedia.org/wiki/Hayao_Miyazaki"
-        style="color: #63120F;text-decoration:underline; text-align: center;">
-        <p class="Marge">Voir sa biographie complète</p>
+        style="color:black;text-decoration:underline; text-align: center;">
+        <p style="margin-bottom: 50px;color: black;">Voir sa biographie complète</p>
     </a>
 
-    <h2> <img src="public/img/NUNU.jpg" style="float: left;">Ses principales oeuvres</h2>
+    <h2 style="margin-bottom: 70px;">SES PRINCIPALES OEUVRES</h2>
 
-    <h3>Le chateau ambulant</h3>
-
-    <div class="gallery">
-        <img src="public/img/ChateauAmbulant.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-
-    <P class="Marge">Le Château ambulant (Hauru no ugoku shiro) s'agit d'une adaptation du roman de Diana Wynne
-        Jones,
-        Le film, sortie en
-        2006, attire au Japon 14 millions de spectateurs et 1,2 million en France et recevra le Prix du public et
-        nomination au
-        prix du meilleur film ainsi que le Prix de la meilleure bande originale de film. Il sera aussi nominé à
-        l’oscar
-        du
-        meilleur film d’animation</P>
-
-    <h3>Kiki la petite sorcière</h3>
-
-    <div class="gallery">
-        <img src="public/img/Kiki.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-    <P class="Marge">Kiki la petite sorcière, sortie en 1989 (Majo no takkyūbin, littéralement Le service de livraison
-        rapide de la sorcière)
-        est le cinquième film d’animation du réalisateur japonais Hayao Miyazaki. Il s’agit de l’adaptation d’un livre
-        japonais
-        pour enfants d’Eiko Kadono paru en 1985, il recevra la médaille d’or japonaise</P>
-
-    <h3>Totoro</h3>
-
-    <div class="gallery">
-        <img src="public/img/Totoro.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-    <p class="Marge">Mon voisin Totoro (Tonari no Totoro) sortie en 1988 réalisera 800 000 entrées en cinq semaines
-        d'exploitation. Il fait
-        partie de la liste du BFI des 50 films à voir avant d'avoir 14 ans établie en 2005 par le British Film
-        Institute. Il
-        fait également partie des 250 meilleurs films selon le site IMDb. Totoro deviendra l’emblemes des studios
-        Ghibli.</p>
-
-    <h3>Princesse Mononoke</h3>
-
-    <div class="gallery">
-        <img src="public/img/Mononoke.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-    <p class="Marge">Princess Mononoke (Hepburn : Mononoke - hime) est un film d'animation historique fantastique épique
-        de 1997. Princess Mononoke a été le film japonais le plus rentable de 1997, gagnant 11,3 milliards de yens en
-        revenus de location
-        de distribution, au niveau international il a gagnera un total de 11 millions de dollars</p>
-
-    <h3>Le chateau dans le ciel</h3>
-
-    <div class="gallery">
-        <img src="public/img/Ciel.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-    <p class="Marge">Le Château dans le ciel ( Tenkū no shiro Rapyuta) sortie en 1986 au Japon ne sera distribuer en
-        Francequ’en 2003
-        raison de la petite distribution que proposait le studio Ghibli à l'époque. Il fera 615 300 entrée en France et
-        800
-        milles au Japon.
-        Le mélange des thèmes action-aventure et techno-écologie a depuis permis à l’œuvre de gagner ses galons de film
-        culte.</p>
-
-    <h3>Ponyo sur la falaise</h3>
-
-    <div class="gallery">
-        <img src="public/img/Ponyo.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-    <p class="Marge">Ponyo sur la falaise (Gake no ue no Ponyo) sortit en 2008 est le neuvième film que Miyazaki réalise
-        au sein du studio
-        Ghibli. Un mois après sa sortie, le film a été vu par 8,43 millions de personnes au Japon, engrangeant plus de
-        10 milliards de yens de recettes. Pour un total de 16 millions d’entrée à l’international.</p>
-
-    <h3>Le vent se lève</h3>
-
-    <div class="gallery">
-        <img src="public/img/Vent.jpg" class="Img" height="162px" width="294px">
-    </div>
-
-    <p class="Marge">Le vent se lève (Kaze tachinu) sorti au Japon le 20 juillet 2013. MLe président du studio Ghibli,
-        annonca que Le vent se
-        lève sera le dernier film d'Hayao Miyazaki qui prend sa retraite du cinéma, même si le cinéaste revint sur sa
-        décision en 2016. Il est le film ayant rapporté la plus grosse recette au Japon en 2013 pour un total de 13
-        millions de
-        yen</p>
-
-    <div class="gallery2" style="margin-top:80px;">
-        <img src="public/img/NuageFooter.svg">
-        <img src="public/img/NuageFooter.svg">
-        <img src="public/img/NuageFooter.svg">
-        <img src="public/img/NuageFooter.svg">
-    </div>
+    <img src="./public/img/FriseGhibli.png" class="ImageCentre" alt="">
 
 </body>
 
-<footer style="margin: 0 -1rem">
+<footer class="FooterBleu" style="margin-top: 150px;">
 
-    <div class="footer">
-        <p style="padding-top:10px ;">Projet réalisé dans le cadre d’un exercice
-            pédagogique au département <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
+    <div>
+
+        <div style="display: flex;">
+
+            <h3 style="margin-left: 30px; margin-top: 70px;">MENTIONS LEGALES</h3>
+            <a href="http://mmimontbeliard.com/"><img src="./public/img/LogoMMINoir.png"
+                    style="width: 42px; height: 47px;padding-top: 60px;padding-left: 70px;" alt=""></a>
+
+        </div>
+
+        <p style="padding-top:10px ; margin-top: 35px; margin-bottom: 35px;">Projet réalisé dans le cadre
+            d’un exercice
+            pédagogique au département <br> <a href="http://mmimontbeliard.com/"
+                style="text-decoration:underline;color: white;">MMi
                 de Montbéliard</a> </br></p>
-        <p> Ayrton chaves</p>
+
     </div>
 
-    <div class="gallery2" style="padding-bottom: 15px;">
-        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="public/img/Insta.svg"> </a>
-        <a href="https://twitter.com/ayrt_chvs"> <img src="public/img/Twitter.svg"> </a>
+    <div style="margin-bottom: 35px;">
+        <h3 style="margin-left: 30px; margin-bottom: 35px;">ME CONTACTER</h3>
+        <a href="mailto:ayrton.chaves08@gmail.com"
+            style="margin-left: 18px; text-decoration: underline; color: white;">ayrton.chaves08@gmail.com</a>
+    </div>
+
+    <div class="gallery2" style="padding-bottom: 30px;">
+        <a href="https://www.instagram.com/ayrton.chvs/" style="padding-right: 40px;"> <img
+                src="public/img/InstaBlanc.svg">
+        </a>
+        <a href="https://twitter.com/ayrt_chvs"> <img src="public/img/TwitterBlanc.svg"> </a>
     </div>
 
 </footer>
+
+
+</html>
