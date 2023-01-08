@@ -147,12 +147,6 @@ p {
 
 
 
-form {
-    border: solid;
-    border-radius: 30px;
-    height: 300px;
-}
-
 .Form2 {
     border: solid;
     margin-bottom: 20px;
@@ -170,7 +164,7 @@ form {
 }
 
 input {
-    background-color: #E4CFB1;
+    background-color: #F4EAD5;
     border: none;
     margin-left: 2px;
     outline: none;
@@ -208,28 +202,13 @@ input {
     border-top: #233963 solid;
     border-left: #233963 solid;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     margin-left: 13px;
 
 }
 
 input:focus-visible {
     outline-offset: 0px;
-}
-
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-}
-
-.video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
 }
 
 
@@ -253,14 +232,7 @@ input:focus-visible {
     padding-top: 30px;
 }
 
-.galleryFooter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    position: relative;
-    margin-top: 30px;
 
-}
 
 .Gallery3 {
     margin-left: 13;

@@ -1,66 +1,75 @@
-<html lang="fr" class="html" x-data="{MenuIsOpen: false}" style="--marge:1rem">
-
-</html>>
+<!DOCTYPE html>
+<html lang="fr" class="html" x-data="{MenuIsOpen: false}">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mon Nindo vous propose d'appronfondir votre
+        culture japonaise à travers des thèmes qui me tiennent à coeur comme Naruto, Kyoto, le Voyage de Chihiro et d'autres.." />
     <title>Mon Nindo</title>
-    <link rel="stylesheet" href="../src/css/style.css" rel="stylesheet" href="../src/css/fonts/font.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-
-<body style="margin: 0 1rem">
-    <header class="header">
+<body>
+    <header class="headerBleu">
 
         <div id="start">
 
-            <a href="../Naruto.html"><img src="../public/img/Trad.svg" Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"> </a>
-            <a href="indexENG.html"><img src="../public/img/Logo.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
+            <a href="../index.html"><img src="../public/img/Trad.svg"
+                    Style="margin-left:10px; width: 58; height: 58;padding-top: 3px;" alt="Bouton Traduction"> </a>
+            <a href="/ENG/indexENG.html"><img src="../public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3; width: 58px;
+    height: 58px" alt="Bouton accueil"> </a>
         </div>
 
         <div id="end" class="Menu">
 
             <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
-                <img src="../public/img/Menu.svg">
+                <img src="../public/img/MenuBeige.svg" style="width: 58px; height: 58px" alt="Bouton">
             </button>
 
             <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
                 <div class="MenuUl">
                     <ul>
-                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+                        <p class="Hiro" style="margin-left: 90px; font-family: 'OldJapanese';"> ARTICLES</p>
 
                         <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
-                                href="NarutoENG.html">Naruto</a> </li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MikiENG.html">Miki Matsubara</a></li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiroENG.html">Voyage de
+                                href="../ENG/NarutoENG.html">Naruto</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/MikiENG.html">Miki Matsubara</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/VoyageDeChihiroENG.html">Voyage
+                                de
                                 Chihiro</a>
                         </li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="KyotoENG.html">Kyoto</a></li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MangakasENG.html">Conditions de vie des
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/KyotoENG.html">Kyoto</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/MangakasENG.html">Conditions de
+                                vie des
                                 Mangakas</a></li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="StéréotypesENG.html">Stéréotypes
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/StéréotypesENG.html">Stéréotypes
                                 japonais</a></li>
 
                 </div>
 
                 <div class="MenuUl">
                     <ul class="Menu2">
-                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30;font-family: 'OldJapanese';    ">
+                            SECONDAIRES</P>
                         <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
                                 src="../public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
-                                href="ProjetsENG.html" style="padding-left:5px">Autres
+                                href="../ENG/ProjetsENG.html" style="padding-left:5px">Autres
                                 Projets</a></li>
                         <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
-                                src="../public/img/LogoGlossaire.svg" style="float: left;"><a href="GlossaireENG.html"
-                                style="padding-left:5px">Glossaire</a></li>
+                                src="../public/img/LogoGlossaire.svg" style="float: left;"><a
+                                href="../ENG/GlossaireENG.html" style="padding-left:5px">Glossaire</a></li>
                         <li style="font-size: 20px; margin-bottom:50px;"><img src="../public/img/LogoMail.svg"
-                                style="float: left;"><a href="ContactENG.html" style="padding-left:5px">Contact</a></li>
+                                style="float: left;"><a href="../ENG/ContactENG.html"
+                                style="padding-left:5px">Contact</a></li>
                         <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
-                                src="../public/img/LogoAPropos.svg" style="float: left;"><a href="AProposENG.html"
-                                style="padding-left:5px">A Propos</a></li>
+                                src="../public/img/LogoAPropos.svg" style="float: left;"><a
+                                href="../ENG/AProposENG.html" style="padding-left:5px">A Propos</a></li>
                     </ul>
                 </div>
             </nav>
@@ -68,90 +77,149 @@
 
     </header>
 
-    <h1 class="center"> Le phénomène Naruto</h1>
 
-    <div class="gallery">
-        <img src="../public/video/Naruto1.gif" class="Img" height="150px" width="319px">
+    <h1 style="font-size: 28;">LE PHENOMENE NARUTO</h1>
+
+    <div id="Naruto1" class="FondBleuCadre" style="margin-bottom: 25;">
+
+        <img src="../public/img/LogoKonoha.png" class="LogoKonoha" alt="">
+        <img src="../public/img/Naruto1.png" style="position: absolute;right: 0; bottom: 16;" alt="">
+
+        <h3 style="color: white;">完全な成功を</h3>
+        <h2 style="color: white;">UN SUCCES TOTAL</h2>
+
+
+
+            <p style="padding-top: 50px; padding-right: 150;">Naruto is a shonen manga drawn by Masashi
+            Kishimoto. His first appearance dates from 1999 in the Weekly
+            Shonen Jump, Japanese magazine in which promising new manga appear, and ended in
+            this same
+            magazine in 2014, for a total of 72 volumes. Then was adapted into an animated series in 2002 by the Pierrot studio.
+        </p>
+
     </div>
-    <p class="Marge"> Naruto est un manga de type shonen dessiné par Masashi Kishimoto. Sa première apparition date de
-        1999 dans le Weekly Shonen Jump, magazine japonais dans lequel les nouveaux mangas prometteurs apparaissent, et
-        s’est finis dans ce même magazine en 2014, pour un total de 72 tomes. Puis a été adapté en série animé en 2002
-        par le studio Pierrot.</p>
-    <h2> <img src="../public/img/NUNU.jpg" style="float: left;">Un succes total</h2>
 
-    <div class="gallery">
-        <img src="../public/video/NarutoPain.gif" class="Img" height="120px" width="187px">
+
+    <div id="Naruto2" class="FondBleu">
+
+        <div class="FondBeigeCadre">
+
+
+            <h3 style="color: #000000;">完全な成功を</h3>
+
+            <img src="../public/img/LogoKonohaNoir.png" class="LogoKonoha" alt="">
+
+            <img src="../public/img/Kakashi.png" style="position: absolute;left: 0;bottom: 0;" alt="">
+
+            <p style=" color: #000000;">250 million is the number of copies sold worldwide, otherwise
+            Said Naruto is a staple in
+            its kind, it is the 3rd in the world sales ranking. Its enormous success even gave birth
+            to movies and
+            video games that have done just as well, The Naruto franchise is a success from A to Z.
+            </p>
+
+
+        </div>
+
     </div>
 
-    <p class="Marge"> 250 millions est le nombre d’exemplaires vendus dans le monde entier, autrement dit Naruto est un
-        incontournable dans son genre, c’est le 3eme dans le classement des ventes mondial. Son énorme succès a même
-        donné naissance à des films et des jeux vidéo qui ont tout aussi bien marché, La franchise Naruto est une
-        réussite de A à Z.</p>
-    <h2> <img src="../public/img/NUNU.jpg" style="float: left;">Une aventure inoubliable</h2>
+    <div id="Naruto3" class="FondBeige">
 
-    <div class="gallery">
-        <img src="../public/video/SasukeItachi.gif" class="Img" height="120px" width="187px">
+        <div class="FondBleuCadre">
+
+            <h3 style="color: #FFFFFF;">忘れられない冒険</h3>
+            <h2 style="color: #FFFFFF;">UNE AVENTURE INOUBLIABLE</h2>
+
+            <img src="../public/img/LogoKonoha.png" class="LogoKonoha" alt="">
+
+            <img src="../public/img/BanniereSasuke.png" class="ImageCentre" alt="">
+
+            <p>But what is Naruto? Naruto is the eponymous name of the protagonist with the blond hairstyle and eyes
+            blue clothed
+            in an orange jumpsuit that you must have seen once, no matter how old you are
+            </p>
+
+            <img src="../public/img/BanniereNaruto.png" class="ImageCentre" alt="">
+
+            <p>Naruto is an orphan and had a terrible childhood. Locked up with a “demon” inside of him, who has
+            in the past
+            attacked his village. All Konoha hates and despises him, but he has a dream of becoming “Hokage”
+            the head ninja of
+            his village and thus prove to everyone his fair value and earn their respect. But the road will be
+            long,
+            accompanied by his friends, he will meet many more dangerous antagonists.
+            others.
+            </p>
+
+
+
+        </div>
     </div>
+
+    <div id="Naruto4" class="FondBleu" style="margin-top: 0;">
+
+        <div class="FondBeigeCadre">
+
+            <h3 style="color: #000000;">人生の哲学</h3>
+            <h2 style="margin: bottom 0; color: #000000;padding-right: 110;">UNE PHILOSOPHIE DE VIE</h2>
+
+            <img src="../public/img/LogoKonohaNoir.png" class="LogoKonoha" alt="">
+
+
+
+            <p style="color: #000000;margin-top: 70;">Through his adventures Naruto takes us from sadness to
+            the joy, of
+            hate to love and vice versa. One
+            complete universe with a touch of humor, Naruto is a real life lesson in its entirety that
+            whether by the
+            stories of the characters or the course of the manga.</p>
+
+
+        </div>
+
+
+    </div>
+
+    <img src="../public/img/Itachi.png" style="position: absolute;left: 25;top: 3020;" alt="">
+</body>
+
+
+</div>
+
+<footer class="FooterBleu" style="margin-top: 150px;">
 
     <div>
-        <p class="Marge">Mais qu’est-ce qu’est Naruto ? Naruto est le nom éponyme du protagoniste à la coiffure blonde
-            et aux yeux
-            bleus, vêtu dans une combinaison orange que vous avez surement déjà du apercevoir une fois, peu importe
-            votre âge. </p>
-        <p style="margin-bottom:40px">Naruto est orphelin et a eu une enfance terrible. Enfermé avec un “demon” à
-            l’intérieur de lui, qui a dans le
-            passé attaqué son village. Tout Konoha le déteste et le méprise, mais il a un rêve celui de devenir “Hokage”
-            le chef ninja de son village et ainsi prouver à tout le monde sa juste valeur et gagner leur respect. Mais
-            la route sera longue, accompagné de ses amis, il fera la rencontre de beaucoup d’antagonistes plus dangereux
-            les uns des autres. </p>
-    </div>
 
-    <h2> <img src="../public/img/NUNU.jpg" style="float: left">Une philosophie de vie</h2>
+        <div style="display: flex;">
 
-    <div class="gallery">
-        <img src="../public/img/NarutoJiraya.jpg" class="Img" height="105px" width="229px">
-    </div>
+            <h3 style="margin-left: 30px; margin-top: 70px;">MENTIONS LEGALES</h3>
+            <a href="http://mmimontbeliard.com/"><img src="../public/img/LogoMMINoir.png"
+                    style="width: 42px; height: 47px;padding-top: 60px;padding-left: 70px;" alt=""></a>
 
-    <p class="Marge">A travers ses aventures Naruto nous fait passer de la tristesse à la joie, de la haine à l’amour
-        et inversement. Un univers complet avec une touche d’humour, Naruto est une vraie leçon de vie dans son
-        entièreté que ce soit par les histoires des personnages ou le déroulement du manga. </p>
-    <h2 class="center">Mon tome favoris</h2>
-    <img src="../public/img/Tome42.jpg" class="Img" style="margin-left: 15px; margin-top: 20px;margin-bottom: 20px;"
-        height="203px" width="141px">
+        </div>
 
-
-    <h3 class="Spoil">ATTENTION SPOIL</h3>
-    <P class="center">Voici une liste de planches Naruto <br> qui m’ont marqué</P>
-
-    <div class="gallery2" height="233px" weight="347px">
-        <img src="../public/img/Planche1.jpg" class="Planche">
-        <img src="../public/img/Planche2.jpg" class="Planche">
-        <img src="../public/img/Planche3.jpg" class="Planche">
-        <img src="../public/img/Planche4.jpg" class="Planche">
-    </div>
-
-    <div class="gallery2" style="margin-top:60px;">
-        <img src="../public/img/NuageFooter.svg">
-        <img src="../public/img/NuageFooter.svg">
-        <img src="../public/img/NuageFooter.svg">
-        <img src="../public/img/NuageFooter.svg">
-    </div>
-
-</body>
-<footer style="margin: 0 -1rem">
-
-    <div class="footer">
-        <p style="padding-top:10px ;">Projet réalisé dans le cadre d’un exercice
-            pédagogique au département <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
+        <p style="padding-top:10px ; margin-top: 35px; margin-bottom: 35px;">Projet réalisé dans le cadre
+            d’un exercice
+            pédagogique au département <br> <a href="http://mmimontbeliard.com/"
+                style="text-decoration:underline;color: white;">MMi
                 de Montbéliard</a> </br></p>
-        <p> Ayrton chaves</p>
+
     </div>
 
-    <div class="gallery2" style="padding-bottom: 15px;">
-        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="../public/img/Insta.svg"> </a>
-        <a href="https://twitter.com/ayrt_chvs"> <img src="../public/img/Twitter.svg"> </a>
+    <div style="margin-bottom: 35px;">
+        <h3 style="margin-left: 30px; margin-bottom: 35px;">ME CONTACTER</h3>
+        <a href="mailto:ayrton.chaves08@gmail.com"
+            style="margin-left: 18px; text-decoration: underline; color: white;">ayrton.chaves08@gmail.com</a>
+    </div>
+
+    <div class="gallery2" style="padding-bottom: 30px;">
+        <a href="https://www.instagram.com/ayrton.chvs/" style="padding-right: 40px;"> <img
+                src="../    public/img/InstaBlanc.svg">
+        </a>
+        <a href="https://twitter.com/ayrt_chvs"> <img src="../public/img/TwitterBlanc.svg"> </a>
     </div>
 
 </footer>
+
 
 </html>

@@ -1,67 +1,65 @@
-<html lang="fr" class="html" x-data="{MenuIsOpen: false}" style="--marge:1rem">
-
-</html>>
+<!DOCTYPE html>
+<html lang="fr" class="html" x-data="{MenuIsOpen: false}">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description">
     <title>Mon Nindo</title>
-    <link rel="stylesheet" href="../src/css/style.css" rel="stylesheet" href="../src/css/fonts/font.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-
-<body style="margin: 0 1rem">
-    <header class="header">
+<body>
+    <header class="headerBleu">
 
         <div id="start">
 
             <a href="../index.html"><img src="../public/img/Trad.svg"
-                    Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"></a>
-            <a href="indexENG.html"><img src="../public/img/Logo.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
+                    Style="margin-left:10px; width: 58; height: 58;padding-top: 3px;" alt="Bouton Traduction"> </a>
+            <a href="/ENG/indexENG.html"><img src="../public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3; width: 58px;
+    height: 58px" alt="Bouton accueil"> </a>
         </div>
 
         <div id="end" class="Menu">
 
             <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
-                <img src="../public/img/Menu.svg">
+                <img src="../public/img/MenuBeige.svg" style="width: 58px; height: 58px" alt="Bouton">
             </button>
 
             <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
                 <div class="MenuUl">
                     <ul>
-                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+                        <p class="Hiro" style="margin-left: 90px; font-family: 'OldJapanese';"> ARTICLES</p>
 
                         <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
-                                href="NarutoENG.html">Naruto</a> </li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MikiENG.html">Miki Matsubara</a></li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiroENG.html">Voyage de
-                                Chihiro</a>
+                                href="../ENG/NarutoENG.html">Naruto</a>
                         </li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="KyotoENG.html">Kyoto</a></li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="MangakasENG.html">Conditions de vie des
-                                Mangakas</a></li>
-                        <li style="font-size: 24px;margin-bottom:15px;"><a href="StéréotypesENG.html">Stéréotypes
-                                japonais</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/MikiENG.html">Miki Matsubara</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/VoyageDeChihiroENG.html">Spirited away</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/KyotoENG.html">Kyoto</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/MangakasENG.html">Living conditions of Mangakas</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="../ENG/StéréotypesENG.html">Japanese stereotypes</a></li>
 
                 </div>
 
                 <div class="MenuUl">
                     <ul class="Menu2">
-                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30;font-family: 'OldJapanese';    ">SECONDARIES</P>
                         <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
                                 src="../public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
-                                href="ProjetsENG.html" style="padding-left:5px">Autres
-                                Projets</a></li>
+                                href="../ENG/ProjetsENG.html" style="padding-left:5px">Others
+                                Projects</a></li>
                         <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
-                                src="../public/img/LogoGlossaire.svg" style="float: left;"><a href="GlossaireENG.html"
-                                style="padding-left:5px">Glossaire</a></li>
+                                src="../public/img/LogoGlossaire.svg" style="float: left;"><a href="../ENG/GlossaireENG.html"
+                                style="padding-left:5px">Glossary</a></li>
                         <li style="font-size: 20px; margin-bottom:50px;"><img src="../public/img/LogoMail.svg"
-                                style="float: left;"><a href="ContactENG.html" style="padding-left:5px">Contact</a></li>
+                                style="float: left;"><a href="../ENG/ContactENG.html" style="padding-left:5px">Contact</a></li>
                         <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
-                                src="../public/img/LogoAPropos.svg" style="float: left;"><a href="AProposENG.html"
-                                style="padding-left:5px">A Propos</a></li>
+                                src="../public/img/LogoAPropos.svg" style="float: left;"><a href="../ENG/AProposENG.html"
+                                style="padding-left:5px">About</a></li>
                     </ul>
                 </div>
             </nav>
@@ -69,49 +67,61 @@
 
     </header>
 
-    <div class="gallery2" max-widht="100%" max-height="100%">
-        <img src="../public/img/MonNindo.svg" class="MonNindo" alt="bannière Nindo">
-    </div>
+    <h3 style="margin-top: 150px; color: black;">WELCOME!</h3>
 
-    <p class="center" style="margin-top:40px;">Welcome! My Nindo invites you to deepen your Japanese culture through
-        themes that are close to my heart.
-    </p>
-    <h2 class="center" style="margin-top:40px;">My 6 articles</h2>
+    <p class="center" style="margin-top:40px; color: black;"> My Nindo invites you to deepen your Japanese culture through themes that are close to my heart.</p>
+
+    <h2 style="margin-top:70px;text-align: center;">MY 6 ARTICLES</h2>
 
     <div class="gallery2">
-        <a href=../ENG/VoyageDeChihiroENG.html> <img src="../public/img/ChihiroMenu.svg" style="margin-top: 20px ;"
-                height="137px" width="150px"> </a>
-        <a href=../ENG/NarutoENG.html><img src="../public/img/NarutoMenu.svg" style="margin-top: 20px ;" height="137px"
-                width="150px"> </a>
-        <a href=../ENG/KyotoENG.html><img src="../public/img/KyotoMenu.svg" height="137px" width="150px"> </a>
-        <a href=../ENG/MikiENG.html><img src="../public/img/MikiMenu.svg" height="137px" width="150px"> </a>
-        <a href=../ENG/MangakasENG.html><img src="../public/img/MangakasMenu.svg" height="137px" width="150px"> </a>
-        <a href=../ENG/StereotypesENG.html><img src="../public/img/StereotypesMenu.svg" height="137px" width="150px"> </a>
+        <a href=../ENG/VoyageDeChihiroENG.html> <img src="../public/img/ChihiroMenu.svg" style="margin-top: 20px ;" height="137px"
+                width="150px" alt="Menu article Chihiro"> </a>
+        <a href=../ENG/NarutoENG.html><img src="../public/img/NarutoMenu.svg" style="margin-top: 20px ;" height="137px" width="150px"
+                alt="Menu article Naruto"> </a>
+        <a href=../ENG/KyotoENG.html><img src="../public/img/KyotoMenu.svg" height="137px" width="150px" alt="Menu article Kyoto">
+        </a>
+        <a href=../ENG/MikiENG.html><img src="../public/img/MikiMenu.svg" height="137px" width="150px"
+                alt="Menu article Stay with me"> </a>
+        <a href=..ENG/MangakasENG.html><img src="../public/img/MangakasMenu.svg" height="137px" width="150px"
+                alt="Menu article Mangakas"> </a>
+        <a href=../ENG/StéréotypesENG.html><img src="../public/img/StereotypesMenu.svg" height="137px" width="150px"
+                alt="Menu article Stéréotypes"> </a>
     </div>
 
-    <div class="gallery2" style="margin-top:60px;">
-        <img src="../public/img/NuageFooter.svg">
-        <img src="../public/img/NuageFooter.svg">
-        <img src="../public/img/NuageFooter.svg">
-        <img src="../public/img/NuageFooter.svg">
-    </div>
 
 </body>
-<footer style="margin: 0 -1rem">
 
-    <div class="Footer">
-        <p style="padding-top:10px ;">Project carried out as part of an educational exercise in the department
-            <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
-                of Montbéliard</a> </br>
-        </p>
-        <p> Ayrton chaves</p>
+<footer class="FooterBleu" style="margin-top: 150px;">
+
+    <div>
+
+        <div style="display: flex;">
+
+            <h3 style="margin-left: 30px; margin-top: 70px;">LEGALS MENTIONS</h3>
+            <a href="http://mmimontbeliard.com/"><img src="../public/img/LogoMMINoir.png"
+                    style="width: 42px; height: 47px;padding-top: 60px;padding-left: 70px;" alt=""></a>
+
+        </div>
+
+        <p style="padding-top:10px ; margin-top: 35px; margin-bottom: 35px;">Project carried out as part of an educational exercise at the department <a href="http://mmimontbeliard.com/"
+            style="text-decoration:underline;color: white;">MMi
+            Montbéliard</a> department</p>
+
     </div>
 
-    <div class="gallery2" style="padding-bottom: 15px;">
-        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="../public/img/Insta.svg"> </a>
-        <a href="https://twitter.com/ayrt_chvs"> <img src="../public/img/Twitter.svg"> </a>
+    <div style="margin-bottom: 35px;">
+        <h3 style="margin-left: 30px; margin-bottom: 35px;">CONTACT ME</h3>
+        <a href="mailto:ayrton.chaves08@gmail.com"
+            style="margin-left: 18px; text-decoration: underline; color: white;">ayrton.chaves08@gmail.com</a>
+    </div>
+
+    <div class="gallery2" style="padding-bottom: 30px;">
+        <a href="https://www.instagram.com/ayrton.chvs/" style="padding-right: 40px;"> <img src="../    public/img/InstaBlanc.svg">
+        </a>
+        <a href="https://twitter.com/ayrt_chvs"> <img src="../public/img/TwitterBlanc.svg"> </a>
     </div>
 
 </footer>
+
 
 </html>

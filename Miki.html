@@ -92,6 +92,18 @@
 
     </div>
 
+            <video width=300 height=200 id="example-player" controls muted class="cld-video-player cld-video-player-skin-dark">
+            </video>
+            
+            
+            <script>
+                var cld = cloudinary.videoPlayer('example-player', {
+                    cloud_name: 'dx89qxode',
+                    sourceTypes: ['hls', 'dash', 'webm/vp9', 'mp4/h265', 'mp4']
+                });
+                cld.source('https://res.cloudinary.com/dx89qxode/video/upload/v1673205901/MonNindo/miki_matsubara-stay_With_Me_dfkkrg.mp4');
+            </script>
+
 
     <div id="MusiqueVideo" class="FondBleu">
 
@@ -99,13 +111,6 @@
 
             <h3 style="color: black;">私と一緒にいて</h3>
             <h2 style="color:black;margin-bottom:50px">STAY WITH ME</h2>
-
-            <div class="video-responsive" style="margin-left: 13px;margin-right: 13px;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/moR4uw-NWLY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
 
 
             <p style="color:black;margin-top: 50px;">Stay with me est un titre parlant d’un amour fini que Miki chante
@@ -187,36 +192,16 @@
 
 <footer>
 
-    <div>
-
-        <div style="display: flex;align-items: center;">
-
-            <h3 style="margin-left: 30px; margin-top: 70px;">MENTIONS LEGALES</h3>
-            <a href="http://mmimontbeliard.com/"><img src="./public/img/LogoMMINoir.png"
-                    style="width: 42; height: 47;padding-top: 85;padding-left: 70;" alt=""></a>
-
-        </div>
-
-        <p style="padding-top:10px ; color: black; margin-top: 35px; margin-bottom: 35px;">Projet réalisé dans le cadre
-            d’un exercice
-            pédagogique au département <br> <a href="http://mmimontbeliard.com/"
-                style="text-decoration:underline; color: #000000;">MMi
+    <div class="footer">
+        <p style="padding-top:10px ;">Projet réalisé dans le cadre d’un exercice
+            pédagogique au département <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
                 de Montbéliard</a> </br></p>
-
+        <p> Ayrton chaves</p>
     </div>
 
-    <div style="margin-bottom: 35px;">
-        <h3 style="margin-left: 30px; margin-bottom: 35px;">ME CONTACTER</h3>
-        <a href="mailto:ayrton.chaves08@gmail.com"
-            style="margin-left: 18px; text-decoration: underline; color: #000000;">ayrton.chaves08@gmail.com</a>
-    </div>
-
-    <div class="gallery2" style="padding-bottom: 30px;">
-        <a href="https://www.instagram.com/ayrton.chvs/" style="padding-right: 40px;"> <img src="public/img/Insta.svg">
-        </a>
+    <div class="gallery2" style="padding-bottom: 15px;">
+        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="public/img/Insta.svg"> </a>
         <a href="https://twitter.com/ayrt_chvs"> <img src="public/img/Twitter.svg"> </a>
     </div>
 
 </footer>
-
-</html>

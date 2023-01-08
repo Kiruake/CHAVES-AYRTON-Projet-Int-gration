@@ -9,105 +9,128 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-<body>
-<header class="header">
+<body style="background-color: #233963;">
+    <header class="headerBeige">
 
-    <div id="start">
+        <div id="start">
 
-        <a href="ENG/ContactENG.html"><img src="public/img/Trad.svg" Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"> </a>
-        <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
-    </div>
-
-    <div id="end" class="Menu">
-
-        <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
-            <img src="public/img/Menu.svg">
-        </button>
-
-        <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
-            <div class="MenuUl">
-                <ul>
-                    <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
-
-                    <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a href="Naruto.html">Naruto</a>
-                    </li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Miki.html">Miki Matsubara</a></li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiro.html">Voyage de
-                            Chihiro</a>
-                    </li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Kyoto.html">Kyoto</a></li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Mangakas.html">Conditions de vie des
-                            Mangakas</a></li>
-                    <li style="font-size: 24px;margin-bottom:15px;"><a href="Stéréotypes.html">Stéréotypes
-                            japonais</a></li>
-
-            </div>
-
-            <div class="MenuUl">
-                <ul class="Menu2">
-                    <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
-                    <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
-                            src="public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a href="Projets.html"
-                            style="padding-left:5px">Autres
-                            Projets</a></li>
-                    <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
-                            src="public/img/LogoGlossaire.svg" style="float: left;"><a href="Glossaire.html"
-                            style="padding-left:5px">Glossaire</a></li>
-                    <li style="font-size: 20px; margin-bottom:50px;"><img src="public/img/LogoMail.svg"
-                            style="float: left;"><a href="Contact.html" style="padding-left:5px">Contact</a></li>
-                    <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
-                            src="public/img/LogoAPropos.svg" style="float: left;"><a href="APropos.html"
-                            style="padding-left:5px">A Propos</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-</header>
-
-    <h1>Contact</h1>
-
-    <form>
-
-        <div class="Form2" style="margin-top:30px">
-            <label style="margin-left:3px; border-right: solid;" for="Nom">Nom*</label>
-            <input type="text" id="name" name="name" required minlength="2" maxlength="16" size="10">
+            <a href="ENG/ContactENG.html"><img src="public/img/Trad.svg"
+                    Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"> </a>
+            <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
         </div>
 
-        <div class="Form2">
-            <label for="Prénom">Prénom*</label>
-            <input type="text" id="Prénom" name="Prénom" required minlength="2" maxlength="16" size="10 ">
-        </div>
+        <div id="end" class="Menu">
 
-        <div class="Form3" style="width: 320px">
-            <label style="padding-top: 24; padding-bottom:24px; padding-right:5px;"   for=" Message">Message</label>
-            <input style="height:70px" type="text-area"  id="Message" name="Message" required minlength="15" maxlength="  "
-                size="28px">
-        </div>
-
-
-        <div x-data="{ Open: false }">
-            <button class="Btn2" type="reset" aria-controls="Formulaire" @click="Open= !Open">
-                Envoyer
+            <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
+                <img src="public/img/Menu.svg">
             </button>
-            <p style="text-align: center; position: absolute, center; margin-top: 50px" x-show="Open">Merci de votre contribution !</p>
+
+            <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
+                <div class="MenuUl">
+                    <ul>
+                        <p class="Hiro" style="margin-left: 90px;"> ARTICLES</p>
+
+                        <li style="font-size: 24px; margin-bottom:15px;margin-top: 50px;"><a
+                                href="Naruto.html">Naruto</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Miki.html">Miki Matsubara</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="VoyageDeChihiro.html">Voyage de
+                                Chihiro</a>
+                        </li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Kyoto.html">Kyoto</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Mangakas.html">Conditions de vie des
+                                Mangakas</a></li>
+                        <li style="font-size: 24px;margin-bottom:15px;"><a href="Stéréotypes.html">Stéréotypes
+                                japonais</a></li>
+
+                </div>
+
+                <div class="MenuUl">
+                    <ul class="Menu2">
+                        <P class="Hiro" style="margin-left: 50px;padding-left: 30; ">SECONDAIRES</P>
+                        <li style="font-size: 20px; margin-bottom:50px; padding-top: 25px;"><img
+                                src="public/img/LogoPlus.svg" class="LogoMenu" style="float: left;"><a
+                                href="Projets.html" style="padding-left:5px">Autres
+                                Projets</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;  padding-top: 25px;margin-right: 25px;"><img
+                                src="public/img/LogoGlossaire.svg" style="float: left;"><a href="Glossaire.html"
+                                style="padding-left:5px">Glossaire</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;"><img src="public/img/LogoMail.svg"
+                                style="float: left;"><a href="Contact.html" style="padding-left:5px">Contact</a></li>
+                        <li style="font-size: 20px; margin-bottom:50px;margin-right: 25px;"><img
+                                src="public/img/LogoAPropos.svg" style="float: left;"><a href="APropos.html"
+                                style="padding-left:5px">A Propos</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
 
-    </form>
+    </header>
+
+    <h1 style="color:white">CONTACT</h1>
+
+    <div class="FondBeigeCadre" style="height: 410px;">
+        <form style="padding-top: 50px;">
+
+            <div class="Form2" style="margin-top:30px">
+                <label style="margin-left:3px; border-right: solid;" for="Nom">Nom*</label>
+                <input type="text" id="name" name="name" required minlength="2" maxlength="16" size="10">
+            </div>
+
+            <div class="Form2">
+                <label for="Prénom">Prénom*</label>
+                <input type="text" id="Prénom" name="Prénom" required minlength="2" maxlength="16" size="10 ">
+            </div>
+
+            <div class="Form3" style="width: 320px">
+                <label style="padding-top: 24; padding-bottom:24px; padding-right:5px;" for=" Message">Message</label>
+                <input style="height:70px" type="text-area" id="Message" name="Message" required minlength="15"
+                    maxlength="  " size="28px">
+            </div>
+
+
+            <div x-data="{ Open: false }">
+                <button class="Btn2" type="reset" aria-controls="Formulaire" @click="Open= !Open">
+                    Envoyer
+                </button>
+                <p style="text-align: center; position: absolute, center;color: black;" x-show="Open">Merci de votre
+                    contribution !</p>
+            </div>
+
+        </form>
+    </div>
 
 </body>
 
-<footer >
+<footer style="background-color:#F4EAD5;margin-top: 120px;">
 
-    <div class="footer">
-        <p style="padding-top:10px ;">Projet réalisé dans le cadre d’un exercice
-            pédagogique au département <br> <a href="http://mmimontbeliard.com/" style="text-decoration:underline">MMi
+    <div>
+
+        <div style="display: flex;align-items: center;">
+
+            <h3 style="margin-left: 30px; margin-top: 70px;">MENTIONS LEGALES</h3>
+            <a href="http://mmimontbeliard.com/"><img src="./public/img/LogoMMINoir.png"
+                    style="width: 42; height: 47;padding-top: 85;padding-left: 70;" alt=""></a>
+
+        </div>
+
+        <p style="padding-top:10px ; color: black; margin-top: 35px; margin-bottom: 35px;">Projet réalisé dans le cadre
+            d’un exercice
+            pédagogique au département <br> <a href="http://mmimontbeliard.com/"
+                style="text-decoration:underline; color: #000000;">MMi
                 de Montbéliard</a> </br></p>
-        <p> Ayrton chaves</p>
+
     </div>
 
-    <div class="gallery2" style="padding-bottom: 15px;">
-        <a href="https://www.instagram.com/ayrton.chvs/"> <img src="public/img/Insta.svg"> </a>
+    <div style="margin-bottom: 35px;">
+        <h3 style="margin-left: 30px; margin-bottom: 35px;">ME CONTACTER</h3>
+        <a href="mailto:ayrton.chaves08@gmail.com"
+            style="margin-left: 18px; text-decoration: underline; color: #000000;">ayrton.chaves08@gmail.com</a>
+    </div>
+
+    <div class="gallery2" style="padding-bottom: 30px;">
+        <a href="https://www.instagram.com/ayrton.chvs/" style="padding-right: 40px;"> <img src="public/img/Insta.svg">
+        </a>
         <a href="https://twitter.com/ayrt_chvs"> <img src="public/img/Twitter.svg"> </a>
     </div>
 
