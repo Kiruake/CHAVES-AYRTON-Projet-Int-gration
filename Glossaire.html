@@ -12,19 +12,19 @@
 <body>
     <header class="headerBleu">
 
-        <div id="start">
-
-            <a href="ENG/GlossaireENG.html"><img src="public/img/Trad.svg"
-                    Style="margin-left:10px; width: 60; height: 59;padding-top: 3px;"> </a>
-            <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3;"> </a>
-        </div>
-
-        <div id="end" class="Menu">
-
-            <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
-                <img src="public/img/MenuBeige.svg">
-            </button>
-
+    <div id="start">
+    
+        <a href="ENG/NarutoENG.html"><img src="public/img/Trad.svg"
+                Style="margin-left:10px; width: 58; height: 58;padding-top: 3px;" alt="Bouton traduction"> </a>
+        <a href="index.html"><img src="public/img/LogoAccueil.svg" Style="margin-left:85px;   padding-top: 3; width: 58px;
+        height: 58px" alt="Bouton accueil"> </a>
+    </div>
+    
+    <div id="end" class="Menu">
+    
+        <button aria-controls="MenuPrincipal" @click="MenuIsOpen= !MenuIsOpen">
+            <img src="public/img/MenuBeige.svg" style="width: 58px; height: 58px" alt="Bouton menu">
+        </button>
             <nav id="MenuPrincipal" x-show="MenuIsOpen" x-transition.duration.800ms>
                 <div class="MenuUl">
                     <ul>
@@ -132,9 +132,9 @@
 
     <div class="gallery2" style="padding-bottom: 30px;">
         <a href="https://www.instagram.com/ayrton.chvs/" style="padding-right: 40px;"> <img
-                src="public/img/InstaBlanc.svg">
+                src="public/img/InstaBlanc.svg" alt="bouton instagram">
         </a>
-        <a href="https://twitter.com/ayrt_chvs" style="width: 56px; height: 49px;"> <img src="public/img/TwitterBlanc.svg"  </a>
+        <a href="https://twitter.com/ayrt_chvs" style="width: 56px; height: 49px;"> <img src="public/img/TwitterBlanc.svg" alt="bouton twitter"></a>
     </div>
 
 </footer>
